@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GOD BLESS HELLO WORLD</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="story.html">Story Behind Hello World</a>
+        <a href="about.html">About</a>
+        <a href="github.html">GitHub</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div id="header">
+        <i id="sidenav-openbtn" class="fas fa-arrow-circle-left" onclick="openNav()"></i>
+    </div>
+    <div id="header2">
+        <a id="home" href="index.html"><i class="fas fa-warehouse"></i></a>
+    </div>
+
+
+    <div class="startBoxContainer" id="startBox">
+        <div class="startBox">
+            <a class="startButton" id="button" href="#">START <i class="fas fa-chess-rook" id="rook"></i></a>
+        </div>
+        <p id="copy">&copy; Coded by Ali İZZET ÇALIŞKAN 2021&spades; </p>
+
+
+    </div>
+
+    <div class="quizBoxContainer hide" id="quizBox" onclick="run(event)">
+        <div class=" quizBox ">
+            <div class="question ">
+                <p id="question"></p>
+            </div>
+            <div class="answers ">
+                <div class="answerBox ">
+                    <a class="answer " id="answer0" href="# "></a>
+                </div>
+                <div class="answerBox ">
+                    <a class="answer " id="answer1" href="# "></a>
+                </div>
+                <div class="answerBox ">
+                    <a class="answer " id="answer2" href="# "></a>
+                </div>
+                <div class="answerBox ">
+                    <a class="answer " id="answer3" href="# "> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrongAnswerContainer hide" id="wrongAnswer">
+        <div class="wrongAnswer">
+            <p>COME ON MAN!!</p>
+            <p>SHOW SOME RESPECT !!!</p>
+        </div>
+    </div>
+    <div class="correctAnswerContainer hide" id="correctAnswer">
+        <div class="correctAnswer">
+            <p>GOD BLESS HELLO WORLD !!</p><br>
+            <p>WE WOULDNT BE HERE TODAY WITHOUT HELLO WORLD PROGRAMS</p><br>
+            <p>THANKS TO <a href="story.html">Brian Kernighan</a></p>
+        </div>
+    </div>
+
+
+
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js " integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD " crossorigin="anonymous "></script>
+    <script src="jquery-3.5.1.js "></script>
+    <script src="script.js "></script>
+
+</body>
+
+</html>
