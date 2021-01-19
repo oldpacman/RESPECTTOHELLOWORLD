@@ -57,6 +57,7 @@
         justify-content: center;
         border-radius: 50px;
         box-shadow: 5px -5px 10px 3px rgba(226, 225, 223, 0.329);
+        text-align: center;
     }
     
     .wrongAnswerContainer {
@@ -82,7 +83,7 @@
     
     .wrongAnswer p {
         font-family: 'Noto Serif', serif;
-        color: rgb(255, 136, 0);
+        color: rgb(153, 9, 9);
         font-size: 3rem;
         font-weight: bold;
     }
@@ -318,6 +319,18 @@
     
     .fa-github {
         font-size: 3rem;
+    }
+    /* ABOUT */
+    
+    .about {
+        font-family: 'Noto Serif', serif;
+        color: rgb(255, 136, 0);
+        font-size: 1.2rem;
+    }
+    
+    .about span {
+        color: rgb(15, 201, 201);
+        font-size: 1.5rem;
     }
     /* Mobile View */
     
