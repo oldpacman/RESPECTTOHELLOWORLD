@@ -335,6 +335,11 @@
     /* Mobile View */
     
     @media screen and (max-width: 720px) {
+        #mySidenav,
+        #header,
+        #header2 {
+            display: none;
+        }
         .startBox {
             width: 350px;
             height: 200px;
@@ -346,5 +351,19 @@
             height: 70px;
             border-radius: 20px;
             font-size: 1rem;
+        }
+        #copy {
+            background-color: rgba(255, 123, 0, 0.979);
+            border-radius: 3px;
+            font-size: 1rem;
+            font-family: 'Noto Serif', serif;
+            color: black;
+            margin-top: 15px;
+        }
+        .quizBox {
+            width: 350px;
+            height: 200px;
+            border-radius: 30px;
+            box-shadow: 3px -3px 7px 1px rgba(226, 225, 223, 0.329);
         }
     }
