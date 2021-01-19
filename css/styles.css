@@ -308,6 +308,17 @@
         color: rgb(15, 201, 201);
         font-size: 1.5rem;
     }
+    /* GITHUB */
+    
+    .github {
+        font-family: 'Noto Serif', serif;
+        color: rgb(15, 201, 201);
+        font-size: 1.5rem;
+    }
+    
+    .fa-github {
+        font-size: 3rem;
+    }
     /* Mobile View */
     
     @media screen and (max-width: 720px) {
