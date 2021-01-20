@@ -37,22 +37,22 @@
 
     </div>
 
-    <div class="quizBoxContainer hide" id="quizBox" onclick="run(event)">
+    <div class="quizBoxContainer hide" id="quizBox">
         <div class=" quizBox ">
             <div class="question ">
                 <p id="question"></p>
             </div>
-            <div class="answers">
-                <div class="answerBox ">
+            <div class="answers" onclick="run(event)">
+                <div class="answerBox" id="ans0">
                     <a class="answer" id="answer0" href="#"></a>
                 </div>
-                <div class="answerBox ">
+                <div class="answerBox" id="ans1">
                     <a class="answer" id="answer1" href="#"></a>
                 </div>
-                <div class="answerBox ">
+                <div class="answerBox" id="ans2">
                     <a class="answer" id="answer2" href="#"></a>
                 </div>
-                <div class="answerBox ">
+                <div class="answerBox" id="ans3">
                     <a class="answer" id="answer3" href="#"></a>
                 </div>
             </div>

@@ -10,7 +10,7 @@
     }
     
     #copy {
-        background-color: rgba(255, 123, 0, 0.979);
+        background-color: rgba(255, 217, 0, 0.822);
         border-radius: 5px;
         font-size: 2rem;
         font-family: 'Noto Serif', serif;
@@ -117,7 +117,7 @@
     }
     
     .question {
-        background-color: rgb(175, 95, 3);
+        background-color: rgb(253, 153, 2);
         width: 300px;
         height: 100px;
         border-radius: 12px;
@@ -166,7 +166,7 @@
         height: 100px;
         text-decoration: none;
         color: black;
-        background-color: rgb(255, 136, 0);
+        background-color: rgb(255, 217, 0);
         border-radius: 35px;
         font-size: 2rem;
         display: flex;
@@ -187,7 +187,7 @@
     }
     
     #home {
-        color: rgba(255, 123, 0, 0.979);
+        color: rgb(255, 217, 0);
         font-size: 50px;
         cursor: pointer;
         margin-left: 50px;
@@ -195,7 +195,7 @@
     }
     
     #sidenav-openbtn {
-        color: rgba(255, 123, 0, 0.979);
+        color: rgb(255, 217, 0);
         font-size: 60px;
         cursor: pointer;
         margin-left: 50px;
@@ -294,7 +294,7 @@
     }
     
     .storyBox p {
-        color: rgb(255, 136, 0);
+        color: rgb(255, 217, 0);
     }
     /* CONTACT */
     
@@ -324,7 +324,7 @@
     
     .about {
         font-family: 'Noto Serif', serif;
-        color: rgb(255, 136, 0);
+        color: rgb(255, 217, 0);
         font-size: 1.2rem;
     }
     
@@ -353,7 +353,6 @@
             font-size: 1rem;
         }
         #copy {
-            background-color: rgba(255, 123, 0, 0.979);
             border-radius: 3px;
             font-size: 1rem;
             font-family: 'Noto Serif', serif;

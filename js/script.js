@@ -48,7 +48,21 @@ function loadAnswers() {
 
 function values() {
     for (var i = 0; i < choices.length; i++)
-        document.getElementById("answer" + i).value = choices[i];
+        document.getElementById("ans" + i).value = choices[i];
+    for (var x = 0; x < choices.length; x++)
+        document.getElementById("answer" + x).value = choices[x];
+
+}
+
+function run(event) {
+    let y = event.target;
+
+    if (y.value === answer) {
+        correctAnswer();
+    } else {
+        wrongAnswer();
+
+    }
 
 }
 
@@ -82,16 +96,6 @@ function startQuiz() {
 
 
 
-function run(event) {
-    let x = event.target;
 
-    if (x.value === answer) {
-        correctAnswer();
-    } else {
-        wrongAnswer();
-
-    }
-
-}
 
 startButton.addEventListener("click", startQuiz); // Start Butonu na click eventi ekleyip Quiz i başlatıyoruz
